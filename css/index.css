@@ -1,0 +1,358 @@
+/*
+* @Author: Administrator
+* @Date:   2016-07-27 18:50:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-07-27 21:05:34
+*/
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	margin: 0 auto;
+}
+ul, li {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+a {
+	text-decoration: none;
+	color: #3f3e3e;
+	cursor: pointer;
+}
+a:hover {
+	color: #ced1cf;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+html {
+	overflow-x: hidden;
+}
+.clear {
+	clear: both;
+}
+.float {
+	float: left
+}
+.banner {
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.banner #bannerback {
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+.banner #bannerback a {
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+}
+.banner .banner_main {
+	width: 1190px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+/*左侧所有商品列表*/
+.suoyouliebiao {
+	width: 239px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-left: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	z-index: 200;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+#lunbonum {
+	height: 14px;
+	line-height: 23px;
+	position: absolute;
+	right: 19px;
+	bottom:-40px;
+	z-index: 5;
+}
+#lunbonum li {
+	width: 14px;
+	height: 14px;
+	float: left;
+	margin-right: 9px;
+	background: #B4B4B4;
+	border-radius: 14px;
+	cursor: pointer;
+}
+#lunbonum .lunboone {
+	background: #0eab7e;
+	cursor: pointer;
+}
+/*banner结束*/
+.w_1192 {
+	width: 1190px;
+	height: 130px;
+	margin: 0 auto;
+	position: relative;
+	top: -600px;
+	margin-bottom: -130px;
+}
+.logo {
+	width: 223px;
+	height: 83px;
+	margin: 30px 0 0 25px;
+}
+.logo h1 {
+	width: 223px;
+	height: 83px;
+	background: url(../images/logo.png) no-repeat;
+}
+.logo h1 a {
+	width: 223px;
+	height: 83px;
+	text-indent: -45455px;
+	display: block
+}
+.nav {
+	width: 664px;
+	height: 40px;
+	padding-left:60px;
+	float: right;
+	background: url(../images/dg_03.png) no-repeat;
+	margin: 50px 20px 0 0
+}
+.nav ul li {
+	float: left;
+	line-height: 40px;
+	padding: 0 10px;
+	width:60px;
+}
+.nav ul li a {
+	font-family: "微软雅黑";
+	color: #FFF;
+	text-align:center;
+	font-size: 14px;
+	display:block;
+	width:100%;
+	height:100%;
+}
+.nav ul li a:hover {
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+/*头部结束*/
+/*热点新闻*/
+.xw {
+	background:#fbfbf3;
+	border-top:4px solid #2dca7b;
+	height:60px;
+}
+.news_tit {
+	position:absolute;
+	left:20%;
+	height:32px;
+	overflow:hidden;
+	line-height:31px;
+	/* background:url(../images/hot_news.gif) no-repeat; */
+	width:920px;
+	padding-top:15px;
+}
+.news_tit h3 {
+	float:left;
+	height:31px;
+	padding-left:14px;
+	font-size:24px;
+	font-family:"宋体", "微软雅黑";
+	color:#393836;
+}
+/*热点新闻*/
+.main {
+	height:286px;
+	background: url(../images/beijing_03.jpg) no-repeat;
+	margin:0 auto
+}
+.DeWork {
+	width:1190px;
+	height:230px;
+	overflow:hidden;
+	zoom:1;
+	position:relative;
+	margin:0 auto;
+	text-align: center;
+	clear:both;
+}
+.LeftBtn, .LeftRight {
+	display:inline;
+	position:absolute;
+	width:24px;
+	margin-right:20px;
+}
+.LeftBtn {
+	left:5px;
+	top:24px;
+}
+.LeftRight {
+	right:0;
+	top:24px;
+}
+.DeWorkList {
+	width:1000px;
+	margin:0 auto;
+	height:230px;
+	overflow:hidden;
+	padding-top:10px;
+}
+.DeWorkList ul {
+	zoom:1;
+	height:230px;
+	overflow:hidden;
+}
+.DeWorkList ul li {
+	width:198px;
+	height:230px;
+	float:left;
+}
+.DeWorkList ul li a {
+	display:block;
+	width:100%;
+	height:100%;
+	font-size:15px;
+	font-family:"微软雅黑";
+	line-height:25px;
+	color:#0e9a70;
+}
+.DeWorkList ul li a .small_img {
+	display:block;
+	margin:0 auto;
+	padding-top:25px;
+}
+.DeWorkList ul li a .big_img {
+	display:none;
+	margin:0 auto;
+	width:163px !important;
+	height:163px !important;
+}
+.DeWorkList ul li a:hover .big_img {
+	display:block;
+}
+.DeWorkList ul li a:hover .small_img {
+	display:none;
+}
+.DeWorkList ul li a span {
+	font-weight:bold;
+	width: 100%;
+	margin-top: 10px;
+	float: left;
+	text-align: center;
+}
+
+.DeWorkList ul li a img {
+	width:132px;
+	height:132px;
+}
+.DeWorkList ul li a:hover img {
+	width:132px;
+	height:132px;
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+.anli {
+	height: 549px;
+	background: url(../images/beijing_04.jpg) no-repeat;
+	margin: 0 auto
+}
+.anli_con {
+	width: 1190px;
+	height: 509px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.anli_con ul {
+	margin: 50px 0 0 85px;
+}
+.anli_con ul li {
+	border:solid 1px #ddd;
+	width: 245px;
+	height: 154px;
+	float: left;
+	margin: 10px 10px
+}
+.anli_con ul li a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+.kehu {
+	height: 342px;
+	background: url(../images/beijing_05.jpg) no-repeat;
+	margin: 0 auto;
+	overflow: hidden
+}
+.kefu_con {
+	width: 1190px;
+	height: 342px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.kefu_con ul {
+	margin: 40px 0 0 85px;
+}
+.kefu_con ul li {
+	float: left;
+	width: 134px;
+	height: 78px;
+	border: 1px solid #e7e7e7;
+	margin: 6px 6px
+}
+.kefu_con ul li a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+.footer {
+	padding-top:145px;
+	background:url(../images/index_footer_bg.png) repeat-x top center #3f3f3f;
+}
+.footer_con {
+	width:1000px;
+	text-align:center;
+	padding-top:20px;
+	line-height:25px;
+	color:#fff;
+	margin:0 auto;
+	padding-bottom:20px;
+}
+.footer_menu {
+	width:230px;
+	border-top:solid 2px #029c68;
+	margin:0 auto;
+	margin-top:10px;
+	padding-top:5px;
+}
+.footer_menu a {
+	color:#fff;
+}
+.footer_con a {
+	color:#fff;
+}
